@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+</head>
+<body>
+    <h1>Text Summarizer 📝</h1>
+    <form method="post">
+        <label for="prompt">Input your Text or Link</label>
+        <input type="text" name="prompt" id="prompt" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if summary %}
+        <p>{{ summary }}</p>
+    {% endif %}
+</body>
+</html>
