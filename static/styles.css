@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 700px; /* Set a max-width for responsiveness */
+}
+
+.full-width {
+    width: 100%;
+    max-width: 700px; /* Set a max-width for responsiveness */
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.result {
+    text-align: center;
+}
